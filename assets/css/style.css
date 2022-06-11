@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo img {
   max-height: 40px;
+  margin-top: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -191,6 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  margin-top: 50px;
 }
 
 @media (max-width: 2991px) {
@@ -228,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 125px;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -521,7 +523,7 @@ section {
 .services .icon-box {
   text-align: center;
   padding: 70px;
-  width: 615px;
+  width: 100%;
   border-radius: 10px;
   height: 505px;
   top: 0px;
