@@ -218,8 +218,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: all ease-in-out 0.3s;
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
   }
-
-  
   .services .icon-circle {
     max-width: 100%;
     width: 300px;
@@ -229,9 +227,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
   }
   .img-phone{
-    max-width: 100%;
-    width: 400px;
-    height: 400px;
+    /* max-width: 100%; */
+    /* display: block; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140%;
   }
   .img-desktop{
     max-width: 100%;
@@ -241,9 +242,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
     width: 80%;
   }
+  .heykarasection {
+    background: #F9F3DF;
+  }
+  .img-kara{
+    max-width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
   .text-align {
     text-align: justify;
     text-justify: inter-word;
+  }
+  .section-heading {
+    text-align: left;
+  }
+  .ppp {
+    margin: 0px;
+    margin-top: 20px;
   }
 
 
@@ -264,7 +283,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   .ourpassapp {
     background: #F9F3DF;
-    height: 7500px !important;
+    /* height: 7500px !important; */
+  }
+  .ourpassappdesktop {
+    background: #F9F3DF;
+    /* height: 1400px !important; */
+  }
+  .heykarasection {
+    background: #F9F3DF;
   }
 
   
@@ -596,15 +622,21 @@ section {
   width: 100%;
   height: 660px;
 }
+.heykara{
+  background: #DCFCE7;
+  width: 100%;
+  height: 660px;
+}
 .ourpassapp {
   background: #F9F3DF;
-  height: 10460px;
+  /* height: 10460px; */
+}
+.ourpassappdesktop {
+  background: #F9F3DF;
+  /* height: 23400px; */
 }
 .othersp {
-  float: left;
   text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .conclusions {
   background: #2D1A06;
